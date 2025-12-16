@@ -165,7 +165,4 @@ Presentation Layer (BIG_TABLE)
 - All prices standardized to USD in final output
 
 ## Author
-Created for ADMS Final Assessment
-
-## License
-Open Source
+Karl Michael Gaca
