@@ -7,18 +7,18 @@ A complete ETL (Extract, Transform, Load) pipeline that consolidates retail data
 
 ```
 ADMS-FINALS/
-├── extract.py          # Extract CSV files to SQLite staging area
-├── transform.py        # Clean data and standardize currency
-├── load.py            # Load consolidated data to presentation area
-├── analytics.py       # Generate 5 key insights from final data
-├── etl_database.db    # SQLite database (auto-generated)
-└── data/              # Source data directory (if included)
+├── extract.py          
+├── transform.py       
+├── load.py            
+├── analytics.py      
+├── etl_database.db   
+└── data/             
     ├── source/
-    │   ├── japan_store/     # Japan store CSV files
-    │   └── myanmar_store/   # Myanmar store CSV files
-    ├── staging/    # Staging area (intermediate data)
-    ├── transformation/  # Transformed data
-    └── presentation/    # Final consolidated data
+    │   ├── japan_store/     
+    │   └── myanmar_store/   
+    ├── staging/    
+    ├── transformation/  
+    └── presentation/    
 ```
 
 ## ETL Process
@@ -116,13 +116,13 @@ pip install pandas sqlite3
 
 ## Key Features
 
-✅ **Multi-Store Integration**: Combines data from Japan and Myanmar  
-✅ **Currency Standardization**: Automatic JPY to USD conversion  
-✅ **Data Cleaning**: Removes nulls and handles inconsistencies  
-✅ **Consolidated Data Warehouse**: Single unified table for analysis  
-✅ **Analytics Generation**: 5 actionable business insights  
-✅ **SQLite Database**: Lightweight, file-based storage  
-✅ **Modular Design**: Each stage (E-T-L) is independent  
+**Multi-Store Integration**: Combines data from Japan and Myanmar  
+**Currency Standardization**: Automatic JPY to USD conversion  
+**Data Cleaning**: Removes nulls and handles inconsistencies  
+**Consolidated Data Warehouse**: Single unified table for analysis  
+**Analytics Generation**: 5 actionable business insights  
+**SQLite Database**: Lightweight, file-based storage  
+**Modular Design**: Each stage (E-T-L) is independent  
 
 ## Technologies
 - **Python 3.x**
